@@ -9,13 +9,13 @@
 	<div class="bandeau">
 
 		<div id="title-bandeau">
-			<h1>titre</h1>
+			<h1>LEGAY Thomas</h1>
 		</div>
 
-		<div id="btn-bandeau">
-			<input type="submit" value="Acceuil" onclick="window.location='/index.php';">
-			<input type="submit" value="Développement" onclick="window.location='/dev.php';">
-			<input type="submit" value="Contact" onclick="window.location='/contact.php';">
+		<div id="div-btn-bandeau">
+			<input type="submit" id="btn-bandeau" value="Acceuil" onclick="window.location='/index.php';">
+			<input type="submit" id="btn-bandeau" value="Développement" onclick="window.location='/dev.php';">
+			<input type="submit" id="btn-bandeau" value="Contact" onclick="window.location='/contact.php';">
 		</div>
 		
 		<div id="res-btn-bandeau">
@@ -37,7 +37,7 @@
 	<div id="main">
 		
 		<div id="start">
-			<img id="start-img" src="/img/start.jpg">
+			<img id="start-img" src="/img/start1.jpg">
 				<a href="#presentation">
 					<img id="goto-presentation-img" src="/img/icon1.png"/>
 				</a>
@@ -46,10 +46,10 @@
 		<div id="presentation">
 			<h1>Presentation</h1>
 		</div>	
-		
+			
 		<div id="programmation">
-			programmation
-		</div>	
+			<h1>programmation</h1>		
+		</div>
 	</div>
 </body>
 </html>
