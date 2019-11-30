@@ -114,6 +114,15 @@ img#start-img{
     /*opacity: .5;*/
 }
 
+h2#aboutme{
+	color: black;
+	position: absolute;
+	bottom: 18%;
+	left: 45.5%;
+	text-align: center;
+	font: small-caps bold sans-serif;
+}
+
 @keyframes bounce{
      from {bottom: 30px;}
      50%  {bottom: 86px;}
@@ -136,7 +145,7 @@ img#goto-presentation-img:hover{
 	left: 50%;
 	z-index: 6;
 	padding: 10px;
-	animation: bounce 10000s ease infinite;
+	animation: bounce 3s ease infinite;
 }
 
 /*
@@ -145,8 +154,9 @@ img#goto-presentation-img:hover{
 div#presentation{
 	margin-top: 65%;
 	position: relative;
-	height: 40%;
+	height: 100%;
 	background-color: red;
+	font: small-caps bold 16px/1 sans-serif;
 }
 
 div#programmation{

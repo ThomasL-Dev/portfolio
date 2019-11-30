@@ -38,13 +38,25 @@
 		
 		<div id="start">
 			<img id="start-img" src="/img/start1.jpg">
+				
+				<h2 id="aboutme">En savoir plus sur moi !</h2>
+				
 				<a href="#presentation">
 					<img id="goto-presentation-img" src="/img/icon1.png"/>
 				</a>
 		</div>	
 		
 		<div id="presentation">
+			<img id="start-img" src="/img/t2.jpg">
 			<h1>Presentation</h1>
+			
+			<p>J'ai 20 ans, je touche à tout en ce qui concerne les ordinateurs depuis tout jeune, même si je suis plus passionné par le Développement Web/Logiciels, cela permet de faire ressortir ma créativité et surtout de rendre la vie beaucoup plus simple.
+
+			Je peux intervenir sur tout type de projet en Python, c'est le langage que je maîtrise le mieux, je suis actuellement entrain de développer un assistant personnel pour optimiser ma vie tout en Python.
+
+			Je maîtrise tout le reste avec modération donc si des expériences peuvent m'en apprendre plus je suis preneur.
+			</p>
+
 		</div>	
 			
 		<div id="programmation">
