@@ -6,6 +6,7 @@
 </head>
 <body>
 	<div class="bandeau">
+		<img src="img/t.jpg" id="img-bandeau">
 		<div id="title-bandeau">
 			<h1>titre</h1>
 		</div>
