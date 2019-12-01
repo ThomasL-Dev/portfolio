@@ -11,6 +11,8 @@
 	<div id="main">
 
 		<h1>>JEUX</h1>
+		
+		<h1 id="home"> <a href="index.php"> >Acceuil </a></h1>
 
 		<div id="gamelist">
 			
@@ -21,12 +23,13 @@
 			<h3 id="game3">  <a href="tetris.html"> >Tetris </a></h3>
 
 			<h3 id="game4">  <a href="pong.html"> >Pong </a></h3>
+
 		
 		</div>
 
 	</div>
 
-		<img id="bg" src="/img/gl.jpg">
+		<img id="bg" src="img/gl.png">
 
 </body>
 </html>

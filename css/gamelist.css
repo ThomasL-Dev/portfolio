@@ -35,6 +35,18 @@ h1{
    	z-index: 1;
 }
 
+h1#home{
+      position: absolute;
+      background-color: black;
+      top: 5%;
+      left: 70%;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      z-index: 1;
+}
+
 #gamelist{
 	position: absolute;
 	display: block;
