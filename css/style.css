@@ -246,6 +246,7 @@ img#presentation-img{
 	z-index: -1;
 	height: 100%;
 	width: 100%;
+	filter: blur(1px);
 }
 
 div#div-img-competence{
@@ -348,7 +349,7 @@ img#projet-img{
 	z-index: -1;
 	width: 100%;
 	height: 100%;	
-	/*filter: blur(1px);*/
+	filter: blur(1px);
 }
 
 div#projet-explain{
