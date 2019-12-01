@@ -42,7 +42,7 @@
 
 	<div id="main">
 
-		<a href="snake.html">
+		<a href="gamelist.php">
 			<img id="gb-img" src="/img/gb.png"/>
 		</a>
 
