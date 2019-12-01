@@ -3,7 +3,7 @@
 <head>
 	<title>Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link rel="icon" href="img/icon3.png" />
+	<link rel="icon" href="img/icon.png" />
 </head>
 <body>
 	<div class="bandeau">
