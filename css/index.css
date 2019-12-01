@@ -106,7 +106,7 @@ div#res-btn-bandeau{
 	/*left: 35%;*/
 	background-color: #ececec;
 	padding-left: 35%;
-	padding-right: 39%;
+	width: 100%;
 }
 
 input#res{
