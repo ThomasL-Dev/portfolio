@@ -246,6 +246,7 @@ img#presentation-img{
 	z-index: -1;
 	height: 100%;
 	width: 100%;
+	filter: blur(1px);
 }
 
 div#div-img-competence{
@@ -348,6 +349,7 @@ img#projet-img{
 	z-index: -1;
 	width: 100%;
 	height: 100%;	
+	filter: blur(1px);
 }
 
 div#projet-explain{
@@ -356,6 +358,69 @@ div#projet-explain{
 	left: 50%;
 	height: 100%;
 	width: 40%;
+}
+
+div#projet-affichage{
+	margin-top: 30%;
+}
+
+img#ico-projet{
+	position: relative;
+	top: 5px;
+	height: 25px;
+	width: 25px;
+}
+
+p#projet{
+	position: relative;
+	display: block;
+	margin-left: 25px;
+	margin-top: 50px;
+	top: 10px;
+	left: 10px;
+}
+
+button#btn-projet{
+	width: 70%;
+	padding-left: 2px;
+	text-align: center;
+	border-width: 0px;
+	color: #ececec;
+	background-color: transparent;
+	margin-right: 10px;
+	border-radius: 0px;
+	font: small-caps bold 18px/1 sans-serif;
+}
+
+div.affiche-desc{
+	position: absolute;
+	top: 30%;
+	left: 8%;
+	background: rgba(0, 0, 0, 0.6);
+	width: 40%;
+	
+	display: none;
+
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+  	hyphens: auto;
+  	overflow-x: scroll;
+}
+
+h2#description{
+	position: relative;
+	margin-right: 2%;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+a#desc-link{
+	color: #ececec;
+	position: absolute;
+	bottom: 1%;
+	right: 5%;
+	display: inline;
+	text-decoration: none;
 }
 
 

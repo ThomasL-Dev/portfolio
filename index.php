@@ -126,7 +126,12 @@
 			<script>
 				function showDescription(divName) {
 					  var x = document.getElementById(divName);
-					  x.style.display === "none"
+					  document.getElementById("desc-1").style.display === "hidden"
+					  document.getElementById("desc-2").style.display === "hidden"
+					  document.getElementById("desc-3").style.display === "hidden"
+					  document.getElementById("desc-4").style.display === "hidden"
+					  document.getElementById("desc-5").style.display === "hidden"
+					  document.getElementById("desc-6").style.display === "hidden"
 					  if (x.style.display === "block") {
 					    x.style.display = "none";
 					  } else {
@@ -167,38 +172,55 @@
 			</div>
 
 			<div class="affiche-desc" id="desc-1">
-				Description
-				Assistant Personnel
+				
+				<h2 id="description">
+					Assistant personnel développé en python pour pouvoir me faciliter la vie
+				</h2>
+				<br>
 				<a id="desc-link" href="https://github.com/ThomasL-Dev/jarvis">Lien GitHub</a>
 			</div>
 
 			<div class="affiche-desc" id="desc-2">
-				Description
-				Portfolio
+				
+				<h2 id="description">
+					Mon site que vous visitez actuellement
+				</h2>
 				<a id="desc-link" href=""></a>
 			</div>
 
 			<div class="affiche-desc" id="desc-3">
-				Description
-				GSB site vitrine
+				
+				<h2 id="description">
+					Un site vitrine de test pour GSB (qui est une entreprise fictive créé par les enseignants de mon ancien BTS)
+				</h2>
+				<br>
 				<a id="desc-link" href="./projets/site_vitrine_gsb">Voir</a>
 			</div>
 
 			<div class="affiche-desc" id="desc-4">
-				Description
-				gsb gestion materiel
+				
+				<h2 id="description">
+					Un site de test pour les demandes de gestion de matériel pour GSB (qui est une entreprise fictive créé par les enseignants de mon ancien BTS)
+				</h2>
+				<br>
 				<a id="desc-link" href="./projets/site_gestion_materiel">Voir</a>
 			</div>
 
 			<div class="affiche-desc" id="desc-5">
-				Description
-				GSB app
+			
+				<h2 id="description">
+					Application pour les pharmaciens de GSB (qui est une entreprise fictive créé par les enseignants de mon ancien BTS)
+				</h2>
+				<br>
 				<a id="desc-link" href="https://github.com/ThomasL-Dev/gsb_app_test">Lien GitHub</a>
 			</div>
 
 			<div class="affiche-desc" id="desc-6">
-				Description
-				GSB gestion medic
+				
+				<h2 id="description">
+					Application pour gérer les stocks de médicaments pour les pharmaciens GSB (qui est une entreprise fictive créé par les enseignants de mon ancien BTS)
+				</h2>
+				<br>
 				<a id="desc-link" href="https://github.com/ThomasL-Dev/">Lien GitHub</a>
 			</div>
 
