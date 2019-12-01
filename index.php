@@ -123,9 +123,84 @@
 
 			</div>
 
+			<script>
+				function showDescription(divName) {
+					  var x = document.getElementById(divName);
+					  x.style.display === "none"
+					  if (x.style.display === "block") {
+					    x.style.display = "none";
+					  } else {
+					    x.style.display = "block";
+					  }
+				}
+			</script>
+
 			<div id="projet-explain">
-				
-			</div>	
+
+				<div id="projet-affichage">
+					<p id="projet">
+						<img src="img/icojarvis.png" id="ico-projet"> <button id="btn-projet" onclick="showDescription('desc-1')">Assistant Personnel</button>
+					</p>
+
+					<p id="projet">
+						<img src="img/icon.png" id="ico-projet">  <button id="btn-projet" onclick="showDescription('desc-2')">Le Portfolio</button>
+					</p>
+
+					<p id="projet">
+						<img src="img/site.png" id="ico-projet">  <button id="btn-projet" onclick="showDescription('desc-3')">GSB site vitrine</button>
+					</p>
+
+					<p id="projet">
+						<img src="img/site.png" id="ico-projet">  <button id="btn-projet" onclick="showDescription('desc-4')">GSB gestion du materiel</button>
+					</p>
+
+					<p id="projet">
+						<img src="img/app.png" id="ico-projet">  <button id="btn-projet" onclick="showDescription('desc-5')">GSB app</button>
+					</p>
+
+					<p id="projet">
+						<img src="img/app.png" id="ico-projet">  <button id="btn-projet" onclick="showDescription('desc-6')">GSB gestion des medicaments</button>
+					</p>
+
+				</div>
+
+			</div>
+
+			<div class="affiche-desc" id="desc-1">
+				Description
+				Assistant Personnel
+				<a id="desc-link" href="https://github.com/ThomasL-Dev/jarvis">Lien GitHub</a>
+			</div>
+
+			<div class="affiche-desc" id="desc-2">
+				Description
+				Portfolio
+				<a id="desc-link" href=""></a>
+			</div>
+
+			<div class="affiche-desc" id="desc-3">
+				Description
+				GSB site vitrine
+				<a id="desc-link" href="./projets/site_vitrine_gsb">Voir</a>
+			</div>
+
+			<div class="affiche-desc" id="desc-4">
+				Description
+				gsb gestion materiel
+				<a id="desc-link" href="./projets/site_gestion_materiel">Voir</a>
+			</div>
+
+			<div class="affiche-desc" id="desc-5">
+				Description
+				GSB app
+				<a id="desc-link" href="https://github.com/ThomasL-Dev/gsb_app_test">Lien GitHub</a>
+			</div>
+
+			<div class="affiche-desc" id="desc-6">
+				Description
+				GSB gestion medic
+				<a id="desc-link" href="https://github.com/ThomasL-Dev/">Lien GitHub</a>
+			</div>
 
 			<img id="projet-img" src="img/t3.jpg">
 

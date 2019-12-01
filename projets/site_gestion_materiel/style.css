@@ -1,0 +1,188 @@
+body{
+	position: static;
+	width: 90%;
+	color: white;
+	font-family:"Goudy Bookletter 1911", sans-serif;
+	background-color: #6897bb;
+	filter: blur(0px);
+}
+
+div#bandeau{
+	position: sticky;
+	margin-right: 0px;
+	margin-left: 20%;
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+
+h1#titre{
+	color: white;
+	position: sticky;
+}
+
+img{
+	max-width:15%;
+	max-height:15%;
+	height: auto;
+	width: auto;
+	position: absolute;
+	z-index: -1;
+}
+
+
+h1{
+	color: white;
+	width: 900px; 
+	margin-top: 2%; 
+	margin-left: 8%; 
+	color: black; 
+	font-size: 40px;
+	font-family: "Goudy Bookletter 1911", sans-serif;
+	font-feature-settings: "smcp", "zero";
+	text-align: center;
+}
+
+
+fieldset{
+	display: inline-table;
+	vertical-align: middle;
+	margin-left: 35%; 
+	font-size: 140%;
+	width: 35%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 2%;
+	padding-left: 2%;
+	filter: blur(0px);
+}
+
+fieldset:hover{
+	display: inline-table;
+	vertical-align: middle;
+	margin-left: 35%; 
+	font-size: 140%;
+	width: 35%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 2%;
+	padding-left: 2%;
+	filter: blur(0px);
+}
+
+
+legend{
+	margin-left: 10%;
+}
+
+hr{
+	margin-top: 3.5%;
+	height: 2px;
+	width: 100%;
+}
+
+fieldset#fieldset1{
+	margin-top: 5%;
+	height: 100%;
+}
+
+
+input[type=text]{
+	display: inline-grid;
+	vertical-align: center;
+	position: absolute;
+	right: 0;
+	border-radius: 0px;
+	border-width:2px;  
+    border-style:groove;
+    margin-right: 34%;
+	width: 20%;
+	height: 30px;
+	text-align: center;
+}
+
+input[type=checkbox]{
+	display: inline-grid;
+	vertical-align: center;
+	position: absolute;
+	right: 0;
+	border-radius: 0px;
+	border-width:2px;  
+    border-style:groove;
+    margin-right: 34%;
+	width: 20%;
+	height: 30px;
+	text-align: center;
+}
+
+
+
+select{
+	background-color: white;
+	border-style: groove;
+	border-color: transparent transparent #fff transparent;
+	border: 6px solid transparent;
+}
+
+input#deadline{
+	margin-left: 37%;
+}
+
+option{
+	background-color: white;
+}
+
+button#valider{
+	width: 130px;
+	height: 50px;
+	border: none;
+	background-color: white;
+	margin-left: 5%;
+	opacity: .5;
+}
+
+button#valider:hover{
+	width: 130px;
+	height: 50px;
+	border: none;
+	background-color: white;
+	margin-left: 5%;
+	opacity: 1;
+}
+
+button#reset{
+	width: 130px;
+	height: 50px;
+	border: none;
+	margin-left: 45%; 
+	margin-top: 10px;
+	background-color: white;
+	opacity: .5;
+}
+
+
+button#reset:hover{
+	width: 130px;
+	height: 50px;
+	border: none;
+	margin-left: 45%; 
+	margin-top: 10px;
+	background-color: white;
+	opacity: 1;
+}
+
+
+fieldset#resultat{
+	display: inline-table;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 35%; 
+	margin-top: 2%;
+	font-size: 90%;
+	width: 35%;
+	height: 93%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 2%;
+	padding-left: 2%;
+}
