@@ -14,19 +14,21 @@
 		</div>
 
 		<div id="div-btn-bandeau">
-			<input type="submit" id="btn-bandeau" value="Acceuil" onclick="window.location='/index.php';">
-			<input type="submit" id="btn-bandeau" value="Développement" onclick="window.location='/dev.php';">
-			<input type="submit" id="btn-bandeau" value="à Propos" onclick="window.location='/aboutme.php';">
+			<input type="submit" id="btn-bandeau" value="Acceuil" onclick="window.location='./index.php';">
+			<!--<input type="submit" id="btn-bandeau" value="Développement" onclick="window.location='/dev.php';">-->
+			<input type="submit" id="btn-bandeau" value="à Propos" onclick="window.location='./aboutme.php';">
 		</div>
 		
 		<div id="res-btn-bandeau">
-			<a href="https://github.com/ThomasL-Dev/">
-				<img id="github-img" src="/img/github.png"/>
-			</a>
-			
-			<a href="https://www.linkedin.com/in/thomas-legay-b5b634171/">
-				<img id="linkdin-img" src="/img/linkdin.png"/>
-			</a>
+			<div id="res-link">
+				<a href="https://github.com/ThomasL-Dev/">
+					<img id="github-img" src="img/github.png"/>
+				</a>
+				
+				<a href="https://www.linkedin.com/in/thomas-legay-b5b634171/">
+					<img id="linkdin-img" src="img/linkdin.png"/>
+				</a>
+			</div>
 		</div>
 
 		<div id="footer">
@@ -43,11 +45,11 @@
 	<div id="main">
 
 		<a href="gamelist.php">
-			<img id="gb-img" src="/img/gb.png"/>
+			<img id="gb-img" src="img/gb.png"/>
 		</a>
 
 
-		<img id="pp" src="/img/p.png">
+		<img id="pp" src="img/p.png">
 
 
 		<div id="infos-perso">
@@ -55,10 +57,10 @@
 			<h1 id="infos-title">Informations</h1>
 			
 			<div id="logo-infos-perso">
-				<img id="img-infos" src="/img/anniv.png">
-				<img id="img-infos" src="/img/localisation.png">
-				<img id="img-infos" src="/img/mail.png">
-				<img id="img-infos" src="/img/pdf.png">
+				<img id="img-infos" src="img/anniv.png">
+				<img id="img-infos" src="img/localisation.png">
+				<img id="img-infos" src="img/mail.png">
+				<img id="img-infos" src="img/pdf.png">
 			</div>
 		
 			<div id="text-infos-perso">	

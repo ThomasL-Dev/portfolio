@@ -1,6 +1,6 @@
 body{
 	height: 100%;
-	width: 100%;
+	max-width: 100%;
 	margin: 0px;
 	overflow:all;
 	color: #ececec;
@@ -85,12 +85,14 @@ div#div-btn-bandeau{
 	z-index: 2;
 	position: absolute;
 	display: block;
-	margin-top: 40%;
+	margin-top: 48%;
 	width: 100%;
 }
 
 input[type="submit"]#btn-bandeau{
 	background-color: #ececec;
+	padding-top: 20px;
+	padding-bottom: 40px;
 	color: black;
 }
 input[type="submit"]#btn-bandeau:hover{
@@ -105,8 +107,12 @@ div#res-btn-bandeau{
 	bottom: 20px;
 	/*left: 35%;*/
 	background-color: #ececec;
-	padding-left: 35%;
+	/*padding-left: 35%;*/
 	width: 100%;
+}
+
+div#res-link{
+	margin-left: 35%;
 }
 
 input#res{
@@ -370,14 +376,14 @@ About ME
 img#bgam{
 	position: absolute;
 	height: 100%;
-	max-width: 100%;
+	width: 100%;
 	z-index: -1;
 }
 
 img#pp{
 	position: absolute;
 	top: 4%;
-	left: 41.5%;
+	left: 41.25%;
 	height: 200px;
 	width: 200px;
 	border-radius: 99px;
@@ -391,10 +397,21 @@ div#infos-perso{
 	right: 10%;
 	background: rgba(255, 255, 255, 0.3);
 	color: black;
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+  	hyphens: auto;
+  	overflow-x: scroll;	
 }
 
 h1#infos-title, #description-title{
-	margin-top: 20px;
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 22.4%;
+	z-index: 3;
+	background-color: #ececec;
+	position: fixed;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 div#description{
@@ -405,20 +422,25 @@ div#description{
 	left: 10%;
 	background: rgba(255, 255, 255, 0.3);
 	color: black;
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+  	hyphens: auto;
+  	overflow-x: scroll;	
 }
 
 p#description-text1,#description-text2, #description-text3{
-	margin-top: 15%;
+	margin-top: 20%;
 	margin-left: 10px;
 	font: small-caps bold 16px/1 sans-serif;
+	font-size: 1vw;
 }
 
 div#logo-infos-perso{
 	position: absolute;
 	top: 10%;
-	left: 40px;
+	left: 30px;
 	width: 60px;
-	height: 90%;	
+	height: 90%;
 }
 
 img#img-infos{
@@ -430,13 +452,16 @@ img#img-infos{
 div#text-infos-perso{
 	position: absolute;
 	top: 10%;
-	left: 100px;
-	width: 50%;	
+	left: 90px;
+	width: 61;
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+  	hyphens: auto;
 }
 
 h2#text-infos{
 	font: small-caps bold 16px/1 sans-serif;
-	margin-top: 45%;
+	margin-top: 33%;
 	display: block;
 	position: relative;
 	top: -10px;

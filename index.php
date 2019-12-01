@@ -14,19 +14,21 @@
 		</div>
 
 		<div id="div-btn-bandeau">
-			<input type="submit" id="btn-bandeau" value="Acceuil" onclick="window.location='/index.php';">
-			<input type="submit" id="btn-bandeau" value="Développement" onclick="window.location='/dev.php';">
-			<input type="submit" id="btn-bandeau" value="à Propos" onclick="window.location='/aboutme.php';">
+			<input type="submit" id="btn-bandeau" value="Acceuil" onclick="window.location='./index.php';">
+			<!--<input type="submit" id="btn-bandeau" value="Développement" onclick="window.location='/dev.php';">-->
+			<input type="submit" id="btn-bandeau" value="à Propos" onclick="window.location='./aboutme.php';">
 		</div>
 		
 		<div id="res-btn-bandeau">
-			<a href="https://github.com/ThomasL-Dev/">
-				<img id="github-img" src="/img/github.png"/>
-			</a>
-			
-			<a href="https://www.linkedin.com/in/thomas-legay-b5b634171/">
-				<img id="linkdin-img" src="/img/linkdin.png"/>
-			</a>
+			<div id="res-link">
+				<a href="https://github.com/ThomasL-Dev/">
+					<img id="github-img" src="img/github.png"/>
+				</a>
+				
+				<a href="https://www.linkedin.com/in/thomas-legay-b5b634171/">
+					<img id="linkdin-img" src="img/linkdin.png"/>
+				</a>
+			</div>
 		</div>
 
 		<div id="footer">
@@ -46,16 +48,16 @@
 	<div id="main">
 
 		<a href="gamelist.php">
-			<img id="gb-img" src="/img/gb.png"/>
+			<img id="gb-img" src="img/gb.png"/>
 		</a>
 		
 		<div id="start">
-			<img id="start-img" src="/img/start1.jpg">
+			<img id="start-img" src="img/start1.jpg">
 				
 				<h2 id="aboutme">En savoir plus sur moi !</h2>
 				
 				<a href="#presentation">
-					<img id="goto-presentation-img" src="/img/icon1.png"/>
+					<img id="goto-presentation-img" src="img/icon1.png"/>
 				</a>
 		</div>	
 		
@@ -69,27 +71,27 @@
 				
 				<div id="compet1">
 					<p>python</p>
-					<img id="img-competence" src="/img/python.png">
+					<img id="img-competence" src="img/python.png">
 				</div>
 
 				<div id="compet2">
 					<p>java/android</p>
-					<img id="img-competence" src="/img/java.png">
+					<img id="img-competence" src="img/java.png">
 				</div>
 
 				<div id="compet3">
 					<p>php</p>
-					<img id="img-competence" src="/img/php.png">
+					<img id="img-competence" src="img/php.png">
 				</div>
 
 				<div id="compet4">
 					<p>html</p>
-					<img id="img-competence" src="/img/html.png">
+					<img id="img-competence" src="img/html.png">
 				</div>
 
 				<div id="compet5">
 					<p>css</p>
-					<img id="img-competence" src="/img/css.png">
+					<img id="img-competence" src="img/css.png">
 				</div>
 
 
@@ -97,15 +99,15 @@
 
 			<div id="compet6">
 				<p id="text-os-l">linux</p>
-				<img id="img-competence" src="/img/linux.png">
+				<img id="img-competence" src="img/linux.png">
 			</div>
 
 			<div id="compet7">
 				<p id="text-os-w">windows</p>
-				<img id="img-competence" src="/img/windows.png">
+				<img id="img-competence" src="img/windows.png">
 			</div>
 
-			<img id="presentation-img" src="/img/t2.jpg">
+			<img id="presentation-img" src="img/t2.jpg">
 
 		</div>	
 			
@@ -125,7 +127,7 @@
 				
 			</div>	
 
-			<img id="projet-img" src="/img/t3.jpg">
+			<img id="projet-img" src="img/t3.jpg">
 
 		</div>
 	</div>
